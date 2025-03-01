@@ -172,5 +172,5 @@ cython_debug/
 
 # Data
 data/raw/
+data/raw_splits/
 data/processed/
-data/processed_splits/
