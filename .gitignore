@@ -174,3 +174,6 @@ cython_debug/
 data/raw/
 data/raw_splits/
 data/processed/
+
+# Output models
+output/models
