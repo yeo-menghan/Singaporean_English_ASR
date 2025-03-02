@@ -1,5 +1,5 @@
 # Data Processing and Preprocessing Pipelines
-This repository contains two Jupyter notebook scripts designed for data preparation and preprocessing workflows for audio and text datasets. The notebooks are crucial steps in preparing data for machine learning models, particularly for Automatic Speech Recognition (ASR) tasks. Below is a detailed overview of the two notebooks:
+This repository contains two notebook scripts designed for data preparation and preprocessing workflows for audio and text datasets. The notebooks are crucial steps in preparing data for machine learning models, particularly for Automatic Speech Recognition (ASR) tasks. Below is a detailed overview of the two notebooks:
 
 ## 1. download_dataset.ipynb
 ### Overview
