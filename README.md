@@ -20,7 +20,6 @@ Contains datasets for training and evaluation.
 - **raw_splits/**: Splits of raw data for training, validation, and testing.
 - **scripts/**: Scripts for downloading dataset and data preprocessing
 
----
 
 ### 2. **evaluation/**
 Notebooks for evaluating the performance of the models.
@@ -28,19 +27,16 @@ Notebooks for evaluating the performance of the models.
 - **wav2vec2_evaluation.ipynb**: Evaluation of the fine-tuned wav2vec2 model.
 - **whisper_evaluation.ipynb**: Evaluation of the fine-tuned Whisper model.
 
----
 
 ### 3. **output/**
 Stores outputs from training and evaluation.
 
 - **evaluations/**:
-  - **wav2vec2/**: Evaluation results for wav2vec2 (e.g., accuracy, loss, WER).
+  - **wav2vec2/**: Evaluation results for wav2vec2
   - **whisper/**: Evaluation results for Whisper.
 - **models/**:
   - **wav2vec2/**: Saved wav2vec2 model checkpoints.
   - **whisper/**: Saved Whisper model checkpoints.
-
----
 
 ### 4. **training/**
 Notebooks and resources for fine-tuning models.
@@ -52,21 +48,21 @@ Notebooks and resources for fine-tuning models.
 
 - **whisper/**: Resources for Whisper fine-tuning.
 
----
 
-### 5. **scripts/**
-Custom scripts for data preprocessing, model training, and evaluation.
+### 5. **inference/**
+Python Scripts to infer sample audio file in both Whisper and Wav2Vec2
 
----
 
 ## Getting Started
 
 ### Prerequisites
 1. Python 3.8+
 2. Install dependencies using the provided `requirements.txt` file:
-   ```bash
-   pip install -r requirements.txt
-   ```
+    ```bash
+    python -m venv .venv
+    source .venv/bin/activate  # On Windows use .venv\Scripts\activate
+    pip install -r requirements.txt
+    ```
 
 ## Usage
 1. Fine-tuning
