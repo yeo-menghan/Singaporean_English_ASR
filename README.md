@@ -75,6 +75,11 @@ Navigate to the evaluation/ directory and open the evaluation notebook for the m
 All fine-tuned models are saved in the output/models/ directory.
 Evaluation results (e.g., WER, CER) are stored in the output/evaluations/ directory.
 
+## Note
+Please contact the author to retrieve the following items:
+- Model checkpoints for Whisper and Wav2Vec2 (under `output/models`)
+- Data used in the original test of the scripts under `data/processed`, `data/raw`, `data/raw_splits`
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
