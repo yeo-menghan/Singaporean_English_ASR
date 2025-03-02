@@ -18,6 +18,7 @@ Contains datasets for training and evaluation.
 - **processed/**: Preprocessed data ready for model fine-tuning or evaluation.
 - **raw/**: Raw unprocessed datasets.
 - **raw_splits/**: Splits of raw data for training, validation, and testing.
+- **scripts/**: Scripts for downloading dataset and data preprocessing
 
 ---
 
